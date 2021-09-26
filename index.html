@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="logic.js" defer></script>
+    <title>BBT-game</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <section class="Section_result">
+
+            <div class="displayScore">
+                <div class="score">
+                    <h3>me</h3>
+                    <h2 id="score_cptME">0</h2>
+                </div>
+                <img src="images/logo.svg">
+                <div class="score">
+                    <h3>computer</h3>
+                    <h2 id="score_cptIA">0</h2>
+                </div>
+             </div>
+
+            <div class="displayText">
+                <h2><h2>
+                <button id="btnMessage">Continue</button>
+            </div>
+        </section>
+
+
+        <section class="Section_game">
+            <img src="images/bg-pentagon.svg" alt="" class="game_img">
+ 
+            <div class="choice" id="scissor"></div>
+            <div class="choice" id= "paper"></div>
+            <div  class="choice" id="rock"></div>
+            <div class="choice" id ="lizard"></div>
+            <div class="choice" id="spock"></div> 
+        </section>  
+
+
+        <section class="Section_rules">
+            <button id="btnRules">rules</button>
+ 
+            <div id="myModal" class="modalContainer">
+
+                <div  class="modalContent"> 
+                    <iframe src="https://www.youtube.com/embed/6fSieDnqET8?controls=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div> 
+            
+        </section>
+
+
+    </div>
+
+</body>
+</html>
